@@ -95,4 +95,8 @@ h1{
     font-size: 45px;
     color: orange;
 }
+.hero_content{
+    max-width: 1200px;
+    margin: auto;
+}
 /* Hero Section Ended */
