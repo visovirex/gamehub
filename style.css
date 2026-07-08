@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Body */
@@ -83,14 +84,15 @@ button{
     color: orange;
     border: none;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 700;
 }
 .hero p{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
     color: orange;
 }
 /* Hero Section Ended */
