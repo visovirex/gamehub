@@ -4,46 +4,93 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Body */
 body{
-    background-color: azure;
+    background: azure;
 }
-/* Navbar */
+
+/* Navbar Started*/
 nav{
-    display: flex;
+    width: 100%;
     background: orange;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 30px;
+
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
 }
+
 .logo img{
     width: 120px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
 }
+
 .navbar{
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .navbar ul{
     display: flex;
     list-style: none;
     gap: 20px;
 }
-.navbar ul li{
-    margin: 0;
-}
+
 .navbar ul li a{
     text-decoration: none;
     color: black;
 }
+
 button{
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 10px;
-    background-color: black;
+    background: black;
+    color: orange;
+    border: none;
+}
+/* Navbar Ended */
+/* Hero Section Started */
+.hero{
+    background-image: url('./images/hero_baner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+.hero_btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: black;
+    color: orange;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hero p{
+    font-weight: 500;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
     color: orange;
 }
+/* Hero Section Ended */
