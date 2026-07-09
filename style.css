@@ -348,3 +348,62 @@ h1{
     background: #e67e00;
 }
 /* CONTACT PAGE Ended*/
+/* FOOTER Started */
+.footer{
+    background: #111;
+    color: white;
+    padding: 60px 20px 20px;
+}
+.footer .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.footer_about, .footer_links, .footer_contact{
+    flex: 1;
+    min-width: 250px;
+}
+.footer_about h2{
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.footer_about p{
+    line-height: 1.6;
+    color: #ccc;
+}
+.footer_links h3, .footer_contact h3{
+    margin-bottom: 10px;
+    color: orange;
+}
+.footer_links ul{
+    list-style: none;
+}
+.footer_links ul li{
+    margin-bottom: 12px;
+}
+.footer_links a{
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+}
+.footer_links a:hover{
+    background: orange;
+}
+.footer_contact p{
+    margin-bottom: 12px;
+    color: #ccc;
+}
+.footer_bottom{
+    border-top: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+}
+/* FOOTER Ended */
