@@ -173,3 +173,43 @@ h1{
     justify-content: center;
 }
 /* Pricing Section Ended */
+/* Feature Comparison Table Started */
+.feature_comparison{
+    padding: 70px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.feature_comparison h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.feature_comparison table{
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 20px;
+}
+.feature_comparison th, .feature_comparison td{
+    padding: 18px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.feature_comparison th{
+    background: orange;
+    color: white;
+    font-size: 1.1rem;
+}
+.feature_comparison td:first-child{
+    text-align: left;
+    font-weight: 600;
+}
+.feature_comparison tbody tr:nth-child(even){
+    background: #f8f8f8;
+}
+.feature_comparison tbody tr:hover{
+    background: #fff4e6;
+}
+/* Feature Comparison Table Ended */
